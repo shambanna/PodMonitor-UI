@@ -1,0 +1,9 @@
+<form #data="ngForm" (ngSubmit)="onSubmit(data.value)">
+    <div class="form-group alignClass">
+        <label for="cmd">Command</label>
+        <input type="text" class="form-control" ngControl="cmd" aria-describedby="emailHelp" name="cmd" [(ngModel)]="cmd">
+        <input type="submit" value="Run">
+      </div>
+
+</form>
+<pre class="paddingClass">{{responce}}</pre>
