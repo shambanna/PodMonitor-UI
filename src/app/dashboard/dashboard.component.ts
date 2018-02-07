@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Http, Headers, Response } from '@angular/http';
 import { ServerUrl } from '../Config'
 import { Router, NavigationExtras } from "@angular/router";
+import 'rxjs/add/operator/map'
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
